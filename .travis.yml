@@ -1,0 +1,7 @@
+before_script: []
+after_script:  []
+
+install: bundle install
+
+rvm: 
+  - 2.1.0
