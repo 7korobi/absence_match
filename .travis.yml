@@ -1,7 +1,4 @@
-before_script: []
-after_script:  []
-
-install: bundle install
-
-rvm: 
-  - 2.1.0
+language: ruby
+rvm: 2.1.0
+cache: bundler
+script: bundle exec rspec spec
